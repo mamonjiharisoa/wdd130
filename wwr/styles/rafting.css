@@ -49,12 +49,6 @@ header{
 }
 
 
-.image_hero{
-    width: 100%;
-    height: auto;
-    display: block;
-    opacity: 75%; ;
-}
 
 .Company{ 
    
@@ -69,34 +63,12 @@ header{
 
 }
 
-.div_hero{
-    margin-top: 80px;
-    position: relative;
-    text-align: center;
-
-}
-.article{
-    
-     position: absolute;
-     border: 1px solid black ;
-     box-shadow: 0 0 30px  ;
-     margin-bottom: 70px;
-     top: 120px;
-     left:0; 
-     background-color: #D7B377;
 
 
-}
 
-.image_abs{
-    float:right ;
-    top: 70px;
-    top:20%;
-    left:50%;
-    width:170px;
-    height:170px;
-   
-}
+
+
+
 
 .photo{
     width:150px;
@@ -149,12 +121,55 @@ body {
 }
 .paragraph_footer{
     text-align: center;
-    margin-left: 400px;
+    margin-left: 250px;
 }
 .sociallinks{
     margin-left: 100px;
 }
-.paragraphitem2{
-	width: 200px; 
-	height: 200px;
+
+.map{
+    width:70px;
+    height:70px;
+    margin-bottom: 120px;
+}
+
+.img_employee{
+    width: 200px;
+    height: 200px;
+  
+   
+    border-radius: 15px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.div_img_employee{
+display: flex;
+flex-direction: row;
+
+}
+
+h1{
+    text-align: center;
+    color: #2B4162;
+}
+
+form{
+    background-color: #00456d;
+    width:650px;
+    margin-top: 40px;
+    margin-left: 30px;
+    color: #F5F0F6;
+    padding: 30px;
+    border-radius: 14px;
+}
+.button{
+    padding:7px;
+    background-color:#D7B377;
+    width:70px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.fieldset_1{
+  margin-bottom: 10px;
 }
